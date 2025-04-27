@@ -34,7 +34,7 @@ All standard, all powerful. (And honestly, all you really need for a project lik
 
 Files in this Repository
 MatthewJayApril24.ipynb:
- My Jupyter Notebook. It's where all the data wrangling, exploring, modeling, and final predictions happen. Think of it as the heart of the project.
+ My Jupyter Notebook. It's where all the data wrangling, exploring, modeling, and final predictions happen. It is the heart of the project.
 
 
 README.md:
@@ -44,15 +44,25 @@ README.md:
 
 CRISP-DM Process (How I Tackled It)
 Business Understanding
+
  First, the big idea: figure out what factors drive developer salaries and see if we can predict them.
+
 Data Understanding
  I started with simple questions. Where are people from? What do they know? How much experience do they have? Some histograms and correlation heatmaps helped a lot here.
+
 Data Preparation
  There were missing values (because there always are). I cleaned things up, encoded categories, and got everything ready for machine learning.
+
 Modeling
- I built a Random Forest Regressor and tuned it up using GridSearchCV. No fancy deep learning stuff — just something solid that could get the job done.
+ I built a Random Forest Regressor and tuned it up using GridSearchCV. No fancy deep learning stuff, just something solid that could get the job done.
+
 Evaluation
- The model pulled an R² score of about 0.049. Not perfect, but it definitely found real patterns between skills, experience, and paychecks.
+The model pulled an R² score of about 0.049. Yeah, that’s pretty low but honestly, that’s just how it goes when you're trying to predict salaries.
+
+There are so many things that influence what someone makes: negotiating skills, company profits, bonuses, stock options... and none of that shows up in a basic dataset. Not to mention stuff like cost of living differences or random company policies that make salaries jump all over the place.
+
+So even though the model doesn’t capture most of the reasons people get paid what they do, it did manage to spot some real patterns. Things like years of experience and education level still made a noticeable difference. And that's the important part — even if the R² score isn't high, the model still learned something meaningful about how skills connect to salaries.
+
 Deployment (Scenario + Prediction)
  Finally, I created a fictional developer profile and ran it through the model. It spit out a predicted salary, and honestly... the number made sense.
 
@@ -61,7 +71,7 @@ So, what did we find?
 Years of experience matters. A lot.
 
 
-Education level helps... but not as much as you might think.
+Education level helps but not as much as you might think.
 
 
 Country of employment? Huge factor. No surprise there.
@@ -86,7 +96,6 @@ And a quick shoutout to all the random blog posts, StackOverflow answers, and tu
 
 
 Final Thoughts
-This project wasn’t about building the most perfect model in the world. It was about understanding — really seeing — the hidden stories in the data.
-And if I’m being honest? I had a lot of fun doing it.
+This project wasn’t about building the most perfect model in the world. It was about understanding and really seeing the hidden stories in the data and I had a lot of fun doing it!
 
 
