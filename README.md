@@ -91,11 +91,10 @@ Big thanks to Stack Overflow for making their survey data open and accessible.
 Thanks to Udacity for teaching me a structured way to tackle messy, real-world data problems.
 
 
-And a quick shoutout to all the random blog posts, StackOverflow answers, and tutorials that filled in the gaps along the way. You know who you are.
-
-
-
 Final Thoughts
 This project wasn’t about building the most perfect model in the world. It was about understanding and really seeing the hidden stories in the data and I had a lot of fun doing it!
+
+Link to my Blog Post
+https://developerpeek.blogspot.com/2025/04/behind-code-what-developers-want-in-2024.html
 
 
