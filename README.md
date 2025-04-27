@@ -8,10 +8,10 @@ What matters most when it comes to developer salaries?
 Can we spot any surprising trends hiding in the data?
 
 
-And if we train a machine learning model... how well can it actually predict what a developer might earn?
+And if we train a machine learning model, how well can it actually predict what a developer might earn?
 
 
-This project was built as part of Udacity’s Data Science Nanodegree. I followed the CRISP-DM process, because hey — why reinvent the wheel when a good framework already exists?
+This project was built as part of Udacity’s Data Science Nanodegree and I followed the CRISP-DM process
 
 Libraries Used
 Nothing crazy here — just the essentials:
