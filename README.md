@@ -28,7 +28,7 @@ Project1EDITEDCODEMay24.ipynb
  My Jupyter Notebook. It's where all the data wrangling, exploring, modeling, and final predictions happen. It is the heart of the project.
 
 
-##README.md:
+# README
  You’re reading it! It's the roadmap to what this project is about, what's inside, and how it all fits together.
 
  ## Code Organization Update
@@ -39,21 +39,21 @@ This version of the notebook has been fully modularized. I refactored repeated l
 
 The linked blog post goes deeper into what the data actually means for developers: from remote work trends to how much education really matters. It’s a casual but data-backed breakdown of what’s driving pay in tech right now and based directly on what the model found.
 
-CRISP-DM Process (How I Tackled It)
+## CRISP-DM Process (How I Tackled It)
 Business Understanding
 
  First, the big idea: figure out what factors drive developer salaries and see if we can predict them.
 
-Data Understanding
+# Data Understanding
  I started with simple questions. Where are people from? What do they know? How much experience do they have? Some histograms and correlation heatmaps helped a lot here.
 
-Data Preparation
+# Data Preparation
  There were missing values (because there always are). I cleaned things up, encoded categories, and got everything ready for machine learning.
 
-Modeling
+# Modeling
  I built a Random Forest Regressor and tuned it up using GridSearchCV. No fancy deep learning stuff, just something solid that could get the job done.
 
-Evaluation
+# Evaluation
 After cleaning and modeling, the Random Forest pulled an R² score of around 0.54, meaning it could explain over half the variation in developer salaries. That’s actually a solid result for a prediction task like this. Previously, before fixing my code, my R² was only .049, which is not good.
 
 This version of the model is definitely good enough to reveal what matters most in the tech job market.
@@ -62,10 +62,10 @@ There are so many things that influence what someone makes: negotiating skills, 
 
 So even though the model doesn’t capture most of the reasons people get paid what they do, it did manage to spot some real patterns. Things like years of experience and education level still made a noticeable difference. And that's the important part — even if the R² score isn't high, the model still learned something meaningful about how skills connect to salaries.
 
-Deployment (Scenario + Prediction)
+# Deployment (Scenario + Prediction)
  Finally, I created a fictional developer profile and ran it through the model. It spit out a predicted salary, and honestly... the number made sense.
 
-Summary of Results
+# Summary of Results
 So, what did we find?
 Years of experience matters. A lot.
 
@@ -76,11 +76,11 @@ Education level helps but not as much as you might think.
 Country of employment? Huge factor. No surprise there.
 
 
-Creative Insight:
+# Creative Insight:
  Remote developers — full-time remote, not hybrid — tend to pull higher salaries on average. Maybe it's the competition for top talent? Maybe it's the perks of flexibility? Either way, it's there in the numbers.
-Model Performance:
+# Model Performance:
  The Random Forest model wasn’t a mind reader, but it made respectable predictions. The R² score shows it picked up on real-world salary drivers, even if it couldn’t predict them perfectly every time.
-Prediction Scenario:
+# Prediction Scenario:
  When I created a profile for an experienced remote developer with strong skills... the model predicted a top-tier salary. And honestly? It checks out.
 
 Acknowledgments
@@ -90,7 +90,7 @@ Big thanks to Stack Overflow for making their survey data open and accessible.
 Thanks to Udacity for teaching me a structured way to tackle messy, real-world data problems.
 
 
-Final Thoughts
+# Final Thoughts
 This project wasn’t about building the most perfect model in the world. It was about understanding and really seeing the hidden stories in the data and I had a lot of fun doing it!
 
 Link to my Blog Post
