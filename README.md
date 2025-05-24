@@ -16,31 +16,28 @@ This project was built as part of Udacity’s Data Science Nanodegree and I foll
 Libraries Used
 Nothing crazy here — just the essentials:
 pandas
-
-
 numpy
-
-
 matplotlib
-
-
 seaborn
-
-
 scikit-learn
-
 
 All standard, all powerful. (And honestly, all you really need for a project like this.)
 
 Files in this Repository
-MatthewJayApril24.ipynb:
+Project1EDITEDCODEMay24.ipynb
  My Jupyter Notebook. It's where all the data wrangling, exploring, modeling, and final predictions happen. It is the heart of the project.
 
 
 README.md:
  You’re reading it! It's the roadmap to what this project is about, what's inside, and how it all fits together.
 
+ ## Code Organization Update
 
+This version of the notebook has been fully modularized. I refactored repeated logic into functions for cleaner, more maintainable code. This includes reusable functions for loading data, training the model, and evaluating predictions as well as making the notebook easier to follow and extend in the future.
+
+## Expanded Blog Insights
+
+The linked blog post goes deeper into what the data actually means for developers: from remote work trends to how much education really matters. It’s a casual but data-backed breakdown of what’s driving pay in tech right now and based directly on what the model found.
 
 CRISP-DM Process (How I Tackled It)
 Business Understanding
@@ -57,7 +54,9 @@ Modeling
  I built a Random Forest Regressor and tuned it up using GridSearchCV. No fancy deep learning stuff, just something solid that could get the job done.
 
 Evaluation
-The model pulled an R² score of about 0.049. Yeah, that’s pretty low but honestly, that’s just how it goes when you're trying to predict salaries.
+After cleaning and modeling, the Random Forest pulled an R² score of around 0.54, meaning it could explain over half the variation in developer salaries. That’s actually a solid result for a prediction task like this. Previously, before fixing my code, my R² was only .049, which is not good.
+
+This version of the model is definitely good enough to reveal what matters most in the tech job market.
 
 There are so many things that influence what someone makes: negotiating skills, company profits, bonuses, stock options... and none of that shows up in a basic dataset. Not to mention stuff like cost of living differences or random company policies that make salaries jump all over the place.
 
