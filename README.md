@@ -28,7 +28,7 @@ Project1EDITEDCODEMay24.ipynb
  My Jupyter Notebook. It's where all the data wrangling, exploring, modeling, and final predictions happen. It is the heart of the project.
 
 
-#README.md:
+##README.md:
  You’re reading it! It's the roadmap to what this project is about, what's inside, and how it all fits together.
 
  ## Code Organization Update
